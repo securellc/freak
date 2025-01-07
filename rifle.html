@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rifle</title>
+    <link rel="stylesheet" href="styles/rifle.css">
+    <link rel='stylesheet' href="styles/star.css">
+</head>
+
+<body>
+    <div id="overlay" class="overlay" onclick="removeOverlay();">
+        <h5>rifle</h5>
+    </div>
+
+    <div class='galaxy'>
+        <div class='stars1'></div>
+        <div class='stars2'></div>
+        <div class='stars3'></div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="profile">
+                <div class="top">
+                    <img  id="pfp" style="border-radius: 100%;" draggable="false" src="https://files.catbox.moe/gyx6ua.png" width="120px">
+                    <div style="color: #c3c3c3;" class="socials">
+                        <span>::  </span><span>Links </span><span> - </span><span id="dbin" > <a target="_blank" href="https://discord.com/users/1314988477900914789">[discord]</a></span><span> : </span><span id="telegram"><a href="https://rule34.xxx/index.php?page=post&s=view&id=12203587">[free robux]</a> </span>
+                    </div>
+                </div>
+                <div class="border"><span id="username" class="Flicker">Rifle</span>
+                    <p class="Flicker">horny butt sex</p>
+                    <span class="Flicker" >0---XX-------------------XX---</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio autoplay src="https://files.catbox.moe/gw8169.mp3"></audio>
+
+    <script>
+        function removeOverlay() {
+            const overlay = document.getElementById('overlay');
+            if (overlay) {
+                overlay.style.opacity = '0'; 
+                overlay.style.transition = 'opacity 1s ease'; 
+                setTimeout(() => {
+                    overlay.style.display = 'none'; 
+                    audio.play();
+                }, 3000); 
+            }
+        }
+    </script>
+    
+</body>
+</html>
